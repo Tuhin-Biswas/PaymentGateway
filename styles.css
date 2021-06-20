@@ -1,0 +1,74 @@
+.heading{
+    font-size: 100px;
+    text-align: center;
+    color:turquoise;
+    
+}
+#link{
+    color:black;
+}
+#footer{
+    background-color:wheat;
+}
+#copy{
+    margin-left: 675px;
+}
+#project{
+    margin-left:575px;
+}
+#middle{
+    margin-left:660px;
+}
+#background{
+        height:100vh;
+        width:100%;
+        background-image: url(1stpic.jpg);
+        background-size: 100%;
+        background-position: center;
+        transition: 5s;
+    
+        animation-name:animate ;
+        animation-direction:inherit ;
+        animation-duration: 40s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+        animation-timing-function:ease-in-out ;
+    }
+    
+    @keyframes animate{
+        0%{
+            background-image: url(1stpic.jpg);
+        }
+        25%{
+            background-image: url(3rdpic.jpg);
+        }
+        50%{
+            background-image: url( 2ndpic.jpg);
+        }
+        75%{
+            background-image: url(1stpic.jpg);
+        }
+        100%{
+            background-image: url(3rdpic.jpg);
+        }
+    }
+
+    #ex{
+        margin-left: 400px;
+        margin-right:400px;
+        color:white;
+        font-size: 1.5rem;
+    }
+.btn-primary{
+    margin-left: 690px;
+}
+
+.footer{
+    margin-top: 0;
+}
+
+.title{
+    margin-bottom: 0;
+}
+
